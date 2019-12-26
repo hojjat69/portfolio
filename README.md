@@ -19,7 +19,7 @@ It requires user name and the password you have created during installation of P
 
 
 
-DATABASES = {
+   ` DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'database name',
@@ -28,7 +28,7 @@ DATABASES = {
         'HOST': 'localhost',
         'PORT': 'your port',
       }
-    }
+    }`
     
     
     
