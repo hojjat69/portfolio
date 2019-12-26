@@ -38,26 +38,26 @@ It requires user name and the password you have created during installation of P
 2. You will also need the connectors between Django and PostGreSQL which are called psycopg2 and pillow. you can use pip tools in python to install them by following command in cmd: 
 
 
-   pip install psycopg2
+   `pip install psycopg2`
    
    
-   pip install pillow
+   `pip install pillow`
 
 
 3. You need to create migration by writing the following command in cmd:
-   python manage.py makemigrations
+   `python manage.py makemigrations`
 
 
 4. The last stem is migration by writing the following command in the cmd:
-   python manage.py migrate
+   `python manage.py migrate`
    
    Now you should be able to see the migrated files in your local database. You need to install Pgadmin to see it in your local 
    database.
 
 5. Now open cmd and set your dir to project folder and run the manage.py by python as follow:
-   python manage.py runserver
+  `python manage.py runserver`
 
-6. Open your browser and browse http://127.0.0.1:8000/
+6. Open your browser and browse `http://127.0.0.1:8000/`
   
 Enjoy your browsning ;)  
  
